@@ -1,3 +1,9 @@
+@media (max-width: 900px) {
+.cards-section {
+  flex-direction: column;
+}
+}
+
 .cards-section {
   display: flex;
   justify-content: space-between;
