@@ -1,12 +1,14 @@
-@media (max-width: 600px) {
+@media (max-width: 769px) {
 .cards-section {
+  display: flex;
   flex-direction: column;
+  align-items: center;
 }
 }
 
 .cards-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
 }
 
